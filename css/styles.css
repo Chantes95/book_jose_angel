@@ -1,0 +1,95 @@
+
+.image-description-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.image3-container {
+    flex: 0 0 45%;
+    margin-right: 20px;
+}
+.image2-container {
+    flex: 0 0 30%;
+    margin-right: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.description-container {
+    flex: 1;
+}
+
+.description-container p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+    /* Ajusta los márgenes según sea necesario */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.galleryref {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.galleryref img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.galleryref img:hover {
+    transform: scale(1.1);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+}
+.modal2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+}
+.modal img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+.modal2 img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
