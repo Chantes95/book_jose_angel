@@ -620,7 +620,6 @@ model-viewer > #ar-prompt > img {
     display: block;
 }
 .mi_paguina2 {
-    width: 98%;
 }
 
 .mi_paguina .contenedo1 img {
@@ -694,7 +693,7 @@ model-viewer > #ar-prompt > img {
 
 
 }
-@media (max-width:320px) {
+@media ( max-width : 320px ){
     .menu {
         width: 340px;
     }
@@ -851,4 +850,40 @@ model-viewer > #ar-prompt > img {
     .cedula {
         width: 50vh;
     }
+}
+
+@media (max-width: 420px){
+.contenedo1 .imgcon1 img {
+    width: 46%;
+}
+.contenedo2 .galcon2 img {
+    width: 82%;
+}
+.contenedo2 .galcon2 {
+    text-align: center;
+}
+.con-am .contenedo5 p {
+    font-size: 14px;
+}
+.con-am {
+    display: block;
+}
+.con-am .contenedo6 {
+    width: 90%;
+}
+.mi_paguina2 {
+    display: block;
+    width: 13%;
+}
+.mi_paguina2 .contenedo4 {
+    width: 657%;
+}
+
+
+
+
+
+
+
+
 }
