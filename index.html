@@ -1,192 +1,242 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagen y Descripción</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- Agrega aquí tus estilos CSS y enlaces a archivos externos si es necesario -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="&lt;model-viewer&gt; template">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/inicio.css">
+<title>Mi Sitio Web</title>
+
+<!-- Incluir la biblioteca Chart.js --> 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+<!-- Incluir el complemento chartjs-plugin-datalabels --> 
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script> <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script>
 </head>
 <body>
-    <head>
-        <style>
-            body {
-                margin: 0;
-                padding: 0;
-                font-family: Arial, sans-serif;
-            }
-            header {
-                background-color: #004E73;
-                color: white;
-                text-align: center;
-                padding: 1em;
-            }
-            header a {
-                color: white;
-                text-decoration: none;
-                padding: 0.5em 1em;
-            }
-            nav {
-                display: flex;
-                justify-content: center;
-                background-color: #00334A;
-                padding: 0.5em;
-            }
-            nav a {
-                color: white;
-                text-decoration: none;
-                padding: 0.5em 1em;
-            }
-            nav h2 {
-                color: white;
-                text-decoration: none;
-                padding: 0.5em 1em;
-            }
-            img {
-                    max-width: 100%;
-                    height: auto;
-                }
-            .tex1-container{
-                text-align: center;
-                margin: auto;
-                margin: 20px;
-                }
-            .image-container img {
-            max-width: 30%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 10px;
-            }
-            .image-container {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 20px;
-            }
-            .image-container div {
-            text-align: center;
-            margin: auto;
-        }
-        h2 {
-            text-align: center;
-        }
-        
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px;
-        }
+<div class="menu-toggle">&#9776;</div>
+<div class="menu">
+  <ul class="menu-items">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="diseno.html">Diseño gráfico</a></li>
+    <li><a href="model3d.html">Modelado 3D</a></li>
+    <li><a href="mark.html">Marketing</a></li>
+  </ul>
+  <div class="boton"> <a href="https://www.cedulaprofesional.sep.gob.mx/cedula/presidencia/indexAvanzada.action" target="_blank">
+    <h3 class="cedula">Cédula Profesional: 13720766</h3>
+    </a> </div>
+</div>
+<div class="menu-mobile">
+  <ul class="menu-items">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="diseno.html">Diseño gráfico</a></li>
+    <li><a href="model3d.html">Modelado 3D</a></li>
+    <li><a href="mark.html">Marketing</a></li>
+  </ul>
+</div>
 
-        .gallery img {
-            width: 50px;
-            height: auto;
-            margin: 10px;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: transform 0.3s ease-in-out;
-        }
+<!-- Imagen principal -->
 
-        .gallery img:hover {
-            transform: scale(1.1);
-        }
-        </style>
-    </head>
-        <header>
-            <h1>BOOK JOSE ANGEL</h1>
-            <h3>Cédula Profesional: <a href="https://www.cedulaprofesional.sep.gob.mx/cedula/presidencia/indexAvanzada.action" target="_blank">13720766</a></h3>
-        </header>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="modelado3d.html">Modelado 3D </a> 
-            <a href="diseno.html">Diseño Gráfico</a>
-            <a href="Direccion.html">Dirección de Marketing</a>
-        </nav>
-        <!-- El contenido del cuerpo de la página iría aquí -->
+<div class="mi_paguina">
+  <div class="contenedo1">
+    <h2>Me presento.</h2>
+    <p>¡Hola! Soy Jose Angel, aunque prefiero que me llamen Ángel. Después de incursionar en el mundo de la ingeniería en sistemas en el Tec de México, descubrí mi verdadera pasión: el diseño gráfico. Tomé una decisión crucial al cambiar de rumbo y entregarme por completo al diseño. En cada sección de mi portafolio, encontrarás una ventana a mis grandes pasiones: el diseño gráfico, el modelado 3D y el marketing.</p>
+    <div class="imgcon1"> <img src="Graficos/img/DG.png" width="200" height="198" alt=""/> <img src="Graficos/img/M3D.png" width="200" height="198" alt=""/> <img src="Graficos/img/MKT.png" width="200" height="198" alt=""/> </div>
+  </div>
+  <div class="contenedo2">
+    <h2>Acerca de mi sitio web.</h2>
+    <p>Quiero destacar que mi página web, que sirve como mi portafolio, ha sido construida completamente con HTML.</p>
+    <div class="galcon2"> <img src="Graficos/img/htmlpro.PNG" width="300" height="157" alt=""/> </div>
+  </div>
+</div>
+<div class="con-am">
+  <div class="contenedo5">
+    <h2>Realidad aumentada.</h2>
+    <p>Como profesional apasionado por la innovación tecnológica, he dedicado mi carrera a explorar las posibilidades que ofrece la realidad aumentada. Con experiencia en el diseño y desarrollo de aplicaciones y experiencias interactivas, he liderado proyectos que integran esta tecnología para transformar la manera en que las personas interactúan con el mundo digital y físico. Mi enfoque se centra en crear experiencias inmersivas y cautivadoras que despierten la curiosidad del usuario y potencien la narrativa visual.</p>
+	  <p>Para experimentar la realidad aumentada de manera óptima, se recomienda utilizar un teléfono móvil.</p>
+  </div>
+  <div class="contenedo6">
+    <h2>Ejemplo.</h2>
+    <model-viewer src="Graficos/model3d/Mixer.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="Graficos/model3d/Mixer.png" shadow-intensity="1">
+      <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button"> Ver en tiempo real. </button>
+      <div id="ar-prompt"> <img src="Graficos/imgele3D/ar_hand_prompt.png"> </div>
+    </model-viewer>
+  </div>
+</div>
+<!-- Información adicional -->
+<div class="informacion">
+  <h1>Programas que manejo con destreza.</h1>
+</div>
+<div class="carousel-container">
+  <div class="carousel"> <img src="Graficos/iconos/mini.png" alt="Imagen 1"> <img src="Graficos/iconos/mini2.png" alt="Imagen 2"> <img src="Graficos/iconos/mini3.png" alt="Imagen 3"> <img src="Graficos/iconos/mini4.png" alt="Imagen 4"> <img src="Graficos/iconos/mini5.png" alt="Imagen 5"> <img src="Graficos/iconos/mini6.png" alt="Imagen 6"> <img src="Graficos/iconos/mini7.png" alt="Imagen 7"> <img src="Graficos/iconos/mini8.png" alt="Imagen 8"> <img src="Graficos/iconos/mini9.png" alt="Imagen 9"> <img src="Graficos/iconos/mini10.png" alt="Imagen 10"> <img src="Graficos/iconos/inocos12.png" alt="Imagen 1"> <img src="Graficos/iconos/mini13.png" alt="Imagen 2"> <img src="Graficos/iconos/mini3.png" alt="Imagen 3"> <img src="Graficos/iconos/mini4.png" alt="Imagen 4"> <img src="Graficos/iconos/mini5.png" alt="Imagen 5"> <img src="Graficos/iconos/mini6.png" alt="Imagen 6"> <img src="Graficos/iconos/mini7.png" alt="Imagen 7"> <img src="Graficos/iconos/mini8.png" alt="Imagen 8"> <img src="Graficos/iconos/mini9.png" alt="Imagen 9"> <img src="Graficos/iconos/mini10.png" alt="Imagen 10"> <img src="Graficos/iconos/mini.png" alt="Imagen 1"> <img src="Graficos/iconos/mini2.png" alt="Imagen 2"> <img src="Graficos/iconos/mini3.png" alt="Imagen 3"> <img src="Graficos/iconos/mini4.png" alt="Imagen 4"> <img src="Graficos/iconos/mini5.png" alt="Imagen 5"> <img src="Graficos/iconos/mini6.png" alt="Imagen 6"> <img src="Graficos/iconos/mini7.png" alt="Imagen 7"> <img src="Graficos/iconos/mini8.png" alt="Imagen 8"> <img src="Graficos/iconos/mini9.png" alt="Imagen 9"> <img src="Graficos/iconos/mini10.png" alt="Imagen 10"> 
+    <!-- Agrega más imágenes según sea necesario --> 
+  </div>
+</div>
 
-            <img src="Graficos/islas.jpg" alt="islas">
-            
-            <h2>Me presento.</h2>
-            <div class="tex1-container">
-            <h3> ¡Hola, soy Jose Angel, me gusta que me digan Angel! Después de explorar una carrera en ingeniería en sistemas en el Tec de México, 
-                descubrí mi verdadera pasión: el diseño gráfico. Tomé una de las decisiones más importantes de mi vida al cambiar de rumbo y dedicarme
-                 de lleno al diseño. En cada apartado de mi book, encontrarás una ventana a mis grandes pasiones, que es el diseño gráfico,  modelado 3D y el marketing.</h3>
-            </div>
-            <div class="image-container">
-                <div>
-                    <a href="modelado3d.html">
-                    <img src="Graficos/PNG/M3D.png" alt="Imagen 1" >
-                </a>
-                    <p>Modelado 3D.</p>
-                    
-                </div>
-                <div>
-                    <a href="diseno.html">
-                     <img src="Graficos/PNG/DG.png" alt="Imagen 2">   
-                    </a>
-                    <p>Diseño Gráfico.</p>
-                </div>
-                <div>
-                    <a href="Direccion.html">
-                    <img src="Graficos/PNG/MKT.png" alt="Imagen 3">    
-                    </a>
-                    <p>Dirección de marketing digital.</p>
-                </div>
-            </div>
-            
-            <nav>
-               <h2>Acerca de mi sitio web.</h2>
-            </nav>
-            <header>
-                 <body>
-                
-                <div class="image-description-container">
-                   <!-- Contenedor de la imagen -->
-                    <div class="image2-container">
-                        <img src="Graficos/htmlpro.PNG" alt="Tu Imagen">
-                    </div>
-                     <!-- Contenedor de la descripción -->
-                    <div class="description-container">
-                        <p>Para hacer esta presentación aún más especial, quiero compartirte que mi página web, la cual utilizo como mi book, está construida al 100% con código en HTML. Desde el diseño hasta la funcionalidad, cada detalle ha sido cuidadosamente creado utilizando mis habilidades en programación. Esta experiencia no solo me ha permitido recordar y 
-                            aplicar conocimientos de programación, sino que también destaca cómo la tecnología y el diseño se entrelazan para crear experiencias digitales únicas.</p>
-                    </div>
-                </div>
-            </body> 
-            </header>
-            <body>
-                <h2>Diseño de página.</h2>
-                <div class="image-description-container">
-                   
-                     <!-- Contenedor de la descripción -->
-                    <div class="description-container">
-                        <p>La elección del diseño de islas flotantes no fue aleatoria; fue una expresión deliberada de mis experiencias y pasiones. Inspirado por la película Avatar de James Cameron, cada isla representa un aspecto clave de mis conocimientos.
-                            La isla más grande, majestuosa y sólida, encarna mis tres años de experiencia en modelado 3D. En este reino, navego a través de la creación de objetos, desde lo simple hasta lo complejo, capaz de renderizar en alta o baja calidad
-                            según las circunstancias. La isla más pequeña, aun en desarrollo, simboliza mi incursión en el vasto mundo del marketing. Como estudiante de la maestría, he absorbido valiosas lecciones para comprender el desarrollo de marcas y productos.
-                            Más que nada, estas representaciones están interconectadas, y visualizo cómo evolucionarán con el tiempo a medida que mi experiencia crezca, reflejando un viaje continuo de aprendizaje y crecimiento.  </p>
-                    </div>
-                    <!-- Contenedor de la imagen -->
-                    <div class="image2-container">
-                        <img src="Graficos/GIF/islasGIF.gif" alt="Tu Imagen">
-                    </div>
-                </div>
-            </body>
-            <h2>Programas que utilice para hacer mi página.</h2>
-            <header>
-            <body>
-                <div class="gallery">
-                    <img src="Graficos/iconos/maya.png" alt="Imagen 1">
-                    <img src="Graficos/iconos/unreal.png" alt="Imagen 2">
-                    <img src="Graficos/iconos/photochop.png" alt="Imagen 3">
-                    <img src="Graficos/iconos/3dmax.png" alt="Imagen 4">
-                    <img src="Graficos/iconos/illustrator.png" alt="Imagen 5">
-                    <img src="Graficos/iconos/premier.png" alt="Imagen 6">
-                    <img src="Graficos/iconos/GitHub.png" alt="Imagen 6">
-                    <img src="Graficos/iconos/Visual_Studio.png" alt="Imagen 8">
-                    <!-- Agrega más imágenes según sea necesario -->
-                </div>
-            </body>
-            </header>
-           
+<!-- Primer apartado con título -->
 
-           
+<div class="con-gen">
+  <div class="con-ico"> 
+    
+    <!-- Primer apartado con título -->
+    <div class="image-with-barra" id="section1">
+      <h2>MAYA</h2>
+      <img class="image" src="Graficos/iconos/mini6.png" alt="Imagen 1">
+      <div class="barra-bar">
+        <div class="barra" id="barra1">70%</div>
+      </div>
+    </div>
+    
+    <!-- Segundo apartado con título -->
+    <div class="image-with-barra" id="section2">
+      <h2>3DS MAX</h2>
+      <img class="image" src="Graficos/iconos/mini.png" alt="Imagen 2">
+      <div class="barra-bar">
+        <div class="barra" id="barra2">40%</div>
+      </div>
+    </div>
+    
+    <!-- Tercer apartado con título -->
+    <div class="image-with-barra" id="section3">
+      <h2> PAINTER 3D</h2>
+      <img class="image" src="Graficos/iconos/mini11.png" alt="Imagen 3">
+      <div class="barra-bar">
+        <div class="barra" id="barra3">30%</div>
+      </div>
+    </div>
+  </div>
+  <div class="con-ico2"> 
+    
+    <!-- Primer apartado con título -->
+    <div class="image-with-barra" id="section4">
+      <h2>CINEMA 4D</h2>
+      <img class="image" src="Graficos/iconos/inocos12.png" alt="Imagen 1">
+      <div class="barra-bar">
+        <div class="barra" id="barra4">30%</div>
+      </div>
+    </div>
+    
+    <!-- Segundo apartado con título -->
+    <div class="image-with-barra" id="section5">
+      <h2>BLENDER</h2>
+      <img class="image" src="Graficos/iconos/mini13.png" alt="Imagen 2">
+      <div class="barra-bar">
+        <div class="barra" id="barra5">30%</div>
+      </div>
+    </div>
+    
+    <!-- Tercer apartado con título -->
+    <div class="image-with-barra" id="section6">
+      <h2>UNREAL</h2>
+      <img class="image" src="Graficos/iconos/mini9.png" alt="Imagen 3">
+      <div class="barra-bar">
+        <div class="barra" id="barra6">50%</div>
+      </div>
+    </div>
+  </div>
+  <div class="con-ico3"> 
+    
+    <!-- Primer apartado con título -->
+    <div class="image-with-barra" id="section7">
+      <h2>ILLUSTRATOR</h2>
+      <img class="image" src="Graficos/iconos/mini4.png" alt="Imagen 1">
+      <div class="barra-bar">
+        <div class="barra" id="barra7">75%</div>
+      </div>
+    </div>
+    
+    <!-- Segundo apartado con título -->
+    <div class="image-with-barra" id="section8">
+      <h2>PHOTOSHOP</h2>
+      <img class="image" src="Graficos/iconos/mini7.png" alt="Imagen 2">
+      <div class="barra-bar">
+        <div class="barra" id="barra8">65%</div>
+      </div>
+    </div>
+    
+    <!-- Tercer apartado con título -->
+    <div class="image-with-barra" id="section9">
+      <h2>PREMIERE</h2>
+      <img class="image" src="Graficos/iconos/mini8.png" alt="Imagen 3">
+      <div class="barra-bar">
+        <div class="barra" id="barra9">60%</div>
+      </div>
+    </div>
+  </div>
+  <div class="con-ico4"> 
+    
+    <!-- Primer apartado con título -->
+    <div class="image-with-barra" id="section10">
+      <h2>INDESIGN</h2>
+      <img class="image" src="Graficos/iconos/mini2.png" alt="Imagen 1">
+      <div class="barra-bar">
+        <div class="barra" id="barra10">70%</div>
+      </div>
+    </div>
+    
+    <!-- Segundo apartado con título -->
+    <div class="image-with-barra" id="section11">
+      <h2>GITHUB</h2>
+      <img class="image" src="Graficos/iconos/mini3.png" alt="Imagen 2">
+      <div class="barra-bar">
+        <div class="barra" id="barra11">40%</div>
+      </div>
+    </div>
+    
+    <!-- Tercer apartado con título -->
+    <div class="image-with-barra" id="section12">
+      <h2>VISUAL</h2>
+      <img class="image" src="Graficos/iconos/mini10.png" alt="Imagen 3">
+      <div class="barra-bar">
+        <div class="barra" id="barra12">35%</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mi_paguina2">
+  <div class="contenedo3">
+    <h2>Diseño de mi página.</h2>
+    <p>La elección del diseño de islas flotantes no fue aleatoria; fue una expresión deliberada de mis experiencias y pasiones. Inspirado por la película Avatar de James Cameron, cada isla representa un aspecto clave de mis conocimientos. La isla más grande, majestuosa y sólida, encarna mis tres años de experiencia en modelado 3D. En este reino, navego a través de la creación de objetos, desde lo simple hasta lo complejo, capaz de renderizar en alta o baja calidad según las circunstancias. La isla más pequeña, aun en desarrollo, simboliza mi incursión en el vasto mundo del marketing. Como estudiante de la maestría, he absorbido valiosas lecciones para comprender el desarrollo de marcas y productos. Más que nada, estas representaciones están interconectadas, y visualizo cómo evolucionarán con el tiempo a medida que mi experiencia crezca, reflejando un viaje continuo de aprendizaje y crecimiento.</p>
+  </div>
+  <div class="contenedo4">
+    <h2>Acerca de mi sitio web.</h2>
+    <div class="galcon3"> <img src="Graficos/GIF/islasGIF.gif" width="300" height="157" alt=""/> </div>
+  </div>
+</div>
+<div class="aum">
+  <h2 style="color: #FFFFFF;" >
+    <center>
+    </center>
+  </h2>
+</div>
+
+<!-- Estilo para la galería -->
+<header>
+  <h1 style="color: #FFFFFF;" ><center>Algunos trabajos.</center></h1>
+</header>
+ 
+	
+	
+<div class="gallery">
+  <img src="Graficos/trabajos 3d/casa_r.jpg" onclick="openModal('Graficos/trabajos 3d/casa_r.jpg')" alt="Image 1">
+  <img src="Graficos/masdisaing/5.jpg" onclick="openModal('Graficos/masdisaing/5.jpg')" alt="Image 2">
+  <img src="Graficos/fotos/2.jpg" onclick="openModal('Graficos/fotos/2.jpg')" alt="Image 3">
+	<img src="Graficos/fotos/8.jpg" onclick="openModal('Graficos/fotos/8.jpg')" alt="Image 3">
+	<img src="Graficos/trabajos 3d/4.jpg" onclick="openModal('Graficos/trabajos 3d/4.jpg')" alt="Image 3">
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
+	
+<footer class="pie"> <p>Jose Angel Careaga Chantes <br>CédulaProfesional:13720766 </p></footer>
+<script src="js/script.js"></script> 
+<script src="js/script3d.js"></script> 
+<!-- Loads <model-viewer> for browsers: --> 
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
 </body>
 </html>
