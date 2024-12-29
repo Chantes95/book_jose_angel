@@ -1,27 +1,147 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <style>
-        /* Estilos básicos del menú */
-        
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="&lt;model-viewer&gt; template">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/3dmodel.css">
+<title>Mi Sitio Web</title>
+
+<!-- Incluir la biblioteca Chart.js --> 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+<!-- Incluir el complemento chartjs-plugin-datalabels --> 
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script> <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script>
 </head>
 <body>
+<div class="menu-toggle">&#9776;</div>
+<div class="menu">
+  <ul class="menu-items">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="diseno.html">Diseño gráfico</a></li>
+    <li><a href="model3d.html">Modelado 3D</a></li>
+    <li><a href="mark.html">Marketing</a></li>
+  </ul>
+	<model-viewer src="Graficos/model3d/ISLAB4.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="Graficos/PNG/M3D.png" shadow-intensity="1">
+      <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button"> Ver en tiempo real. </button>
+      <div id="ar-prompt"> <img src="Graficos/imgele3D/ar_hand_prompt.png"> </div>
+    </model-viewer>
+  <div class="boton"> <a href="https://www.cedulaprofesional.sep.gob.mx/cedula/presidencia/indexAvanzada.action" target="_blank">
+    <h3 class="cedula">Cédula Profesional: 13720766</h3>
+    </a> </div>
+</div>
+<div class="menu-mobile">
+  <ul class="menu-items">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="diseno.html">Diseño gráfico</a></li>
+    <li><a href="model3d.html">Modelado 3D</a></li>
+    <li><a href="mark.html">Marketing</a></li>
+  </ul>
+	
+</div>
 
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="diseno.html">Diseño gráfico</a></li>
-        <li><a href="model3d.html">Modelado 3D</a></li>
-        <li><a href="mark.html">Marketing</a></li>
-    </ul>
-    
-    <!-- Imagen principal -->
-   <center>
-	<img src="Graficos/error/error_Mesa de trabajo 1.png" alt="Imagen Principal" width="800" class="imagen-principal">
-	</center>
+<div class="mi_paguina">
+  <div class="contenedo1">
+    <h2>Bienvenida a la isla modelo 3D.</h2>
+    <p>Bienvenido a una de mis más grandes pasiones: el modelado 3D. </p>
+    <p>Aquí te llevaré a través de un viaje visual donde cada creación, desde una silla hasta proyectos residenciales completos, cobra vida en el mundo digital.</p>
+<div class="imgcon1"> <img src="Graficos/img/M3D.png" width="200" height="198" alt=""/>  </div>
+  </div>
+  <div class="contenedo2">
+    <h2>Isla Model 3D&nbsp;</h2>
+    <p>Quise realizar la isla 3D en realidad virtual y aumentada, pero debido a limitaciones de espacio en la web, tuve que reducir la calidad del render para optimizar su peso. </p>
+    <p>Esta decisión fue necesaria para garantizar un desempeño adecuado sin comprometer demasiado la experiencia visual. A pesar de la reducción, la esencia del diseño y los detalles principales se mantienen, permitiendo explorar la isla de manera fluida y accesible.</p>
+<div class="galcon2"> <img src="Graficos/islasmaya.PNG" width="369" height="200" alt=""/> </div>
+  </div>
+</div>
+<div class="con-am">
+  <div class="contenedo5">
+    <h2>Modelado de cantina.</h2>
+    <p>Embárcate en un viaje al viejo oeste a través de mi proyecto de modelado 3D: una auténtica cantina que cobra vida con la esencia del oeste. Inspirado por la página Quixel, cada objeto, desde el polvo en el suelo hasta los detalles de los muebles, refleja la rica historia del viejo oeste. </p>
+    <p>El proyecto tomó aproximadamente 8 días, con una dedicación promedio de 8 horas diarias.</p>
+    <p> Durante este tiempo, enfrenté momentos de inspiración que aceleraron mi proceso y desafíos que me motivaron a superar mis límites creativos.</p>
+	  <h2>Programas que utilice.</h2>
+	  <div class="imgcon1"> <img src="Graficos/iconos/maya.png" width="80" height="77" alt=""/><img src="Graficos/iconos/photochop.png" width="80" height="82" alt=""/>   </div>
+	  
+  </div>
+  <div class="contenedo6">
+    <h2>Modelado</h2>
+    <img src="Graficos/cantina/cantionag.gif" width="800" height="454" alt=""/>
+</div>
+</div>
+	
+<div class="con-am">
+	 <div class="contenedo6">
+    <h2>Residencial.</h2>
+    <img src="Graficos/RESIDENCIAL/m1.gif" width="900" height="508" alt=""/>
+</div>
+  <div class="contenedo5">
+    <h2>Residencial.</h2>
+    <p>En mi proyecto residencial, decidí ir más allá de lo convencional y buscar asesoramiento directo del Ingeniero Civil Nicolás B. Careaga Chantes.</p>
+    <p> Me reuní con él para obtener información sobre un plano de un residencial de tres niveles que estaba investigando.</p>
+    <p> Este encuentro fue fundamental, ya que el ingeniero no solo me proporcionó el plano, sino que también me ofreció una valiosa explicación sobre cómo interpretar cada element  . </p>
+    <p>El proyecto en sí abarcaba la comprensión y diseño de un residencial de tres niveles. Decidí dedicar 10 días a este proyecto, con una dedicación aproximada de 9 horas diarias.</p>
+<h2>Programas que utilice.</h2>
+	  <div class="imgcon1"> <img src="Graficos/iconos/maya.png" width="60" height="64" alt=""/><img src="Graficos/iconos/photochop.png" width="60" height="61" alt=""/> <img src="Graficos/iconos/unreal.png" width="60" height="61" alt=""/><img src="Graficos/iconos/3dmax.png" width="60" height="61" alt=""/> <img src="Graficos/iconos/premier.png" width="60" height="61" alt=""/> </div>
+	  
+  </div>
+ 
+</div>
+
+<div class="con-am">
+	 
+  <div class="contenedo5">
+    <h2>Render realist .</h2>
+    <p>El proceso de creación del rénder realista implicó la utilización del modelo de casa creado por Max Achkovsky, el cual descargué y modifiqué para adaptarlo a mis necesidades. </p>
+    <p>Esta iniciativa fue parte de un proyecto personal en el que buscaba explorar mis habilidades en el renderizado realista y la visualización arquitectónica.</p>
+<h2>Programas que utilice.</h2>
+	  <div class="imgcon1"> <img src="Graficos/iconos/maya.png" width="60" height="64" alt=""/><img src="Graficos/iconos/photochop.png" width="60" height="61" alt=""/> <img src="Graficos/iconos/unreal.png" width="60" height="61" alt=""/><img src="Graficos/iconos/3dmax.png" width="60" height="61" alt=""/> <img src="Graficos/iconos/premier.png" width="60" height="61" alt=""/> </div>
+	  
+  </div>
+ <div class="contenedo6">
+    <h2>Residencial.</h2>
+    <img src="Graficos/realista/m1_1.gif" width="800" height="454" alt=""/>
+</div>
+</div>
+	
+	<div class="con-am">
+ <div class="contenedo6">
+    <h2>Video.</h2>
+    <video width="800" controls="controls" >
+      <source src="Graficos/video/cantina.mp4" type="video/mp4">
+    </video>
+ </div>
+</div>
+	<!-- Estilo para la galería -->
+<header>
+  <h1 style="color: #FFFFFF;" ><center>Algunos trabajos.</center></h1>
+</header>
+ 
+	
+	
+<div class="gallery">
+  	<img src="Graficos/trabajos 3d/casa_r.jpg" onclick="openModal('Graficos/trabajos 3d/casa_r.jpg')" alt="Image 1">
+  	<img src="Graficos/trabajos 3d/1.jpg" onclick="openModal('Graficos/trabajos 3d/1.jpg')" alt="Image 2">
+  	<img src="Graficos/trabajos 3d/12.gif" onclick="openModal('Graficos/trabajos 3d/12.gif')" alt="Image 3">
+	<img src="Graficos/trabajos 3d/11.gif" onclick="openModal('Graficos/trabajos 3d/11.gif')" alt="Image 4">
+	<img src="Graficos/trabajos 3d/4.jpg" onclick="openModal('Graficos/trabajos 3d/4.jpg')" alt="Image 5">
+	<img src="Graficos/trabajos 3d/9.jpeg" onclick="openModal('Graficos/trabajos 3d/9.jpeg')" alt="Image 5">
+	<img src="Graficos/trabajos 3d/2.jpg" onclick="openModal('Graficos/trabajos 3d/2.jpg')" alt="Image 5">
+</div>
+	
+<div id="myModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
+	
+<footer class="pie"> <p>Jose Angel Careaga Chantes <br>
+ Cédula Profesional:13720766</p></footer>
+<script src="js/script.js"></script> 
+<script src="js/script3d.js"></script> 
+<!-- Loads <model-viewer> for browsers: --> 
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
 </body>
 </html>
