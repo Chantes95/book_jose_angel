@@ -1,27 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <style>
-        /* Estilos básicos del menú */
-        
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="&lt;model-viewer&gt; template">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/mk.css">
+<title>Mi Sitio Web</title>
+
+<!-- Incluir la biblioteca Chart.js --> 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+<!-- Incluir el complemento chartjs-plugin-datalabels --> 
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script> <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script>
 </head>
 <body>
+<div class="menu-toggle">&#9776;</div>
+<div class="menu">
+  <ul class="menu-items">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="diseno.html">Diseño gráfico</a></li>
+    <li><a href="model3d.html">Modelado 3D</a></li>
+    <li><a href="mark.html">Marketing</a></li>
+  </ul>
+  <div class="boton"> <a href="https://www.cedulaprofesional.sep.gob.mx/cedula/presidencia/indexAvanzada.action" target="_blank">
+    <h3 class="cedula">Cédula Profesional: 13720766</h3>
+    </a> </div>
+</div>
+<div class="menu-mobile">
+  <ul class="menu-items">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="diseno.html">Diseño gráfico</a></li>
+    <li><a href="model3d.html">Modelado 3D</a></li>
+    <li><a href="mark.html">Marketing</a></li>
+  </ul>
+</div>
 
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="diseno.html">Diseño gráfico</a></li>
-        <li><a href="model3d.html">Modelado 3D</a></li>
-        <li><a href="mark.html">Marketing</a></li>
-    </ul>
-    
-    <!-- Imagen principal -->
-	<center>
-	<img src="Graficos/error/error_Mesa de trabajo 1.png" alt="Imagen Principal" width="800" class="imagen-principal">
-	</center>
+<div class="mi_paguina">
+  <div class="contenedo1">
+    <h2>Bienvenido a la isla de dirección de marketing digital y social.</h2>
+    <p>Bienvenido a mi última isla, donde comparto los conocimientos adquiridos durante mi Maestría en Dirección de Marketing Digital y Social. Este espacio se convierte en un aprendizaje, fusionando teoría y práctica en el dinámico mundo del marketing digital y las estrategias sociales. </p>
+<div class="imgcon1"> <img src="Graficos/img/MKT.png" width="150" height="148" alt=""/>  </div>
+  </div>
+ 
+</div>
+<div class="con-am">
+  <div class="contenedo5">
+    <h2>¿Qué es? La Dirección de Marketing Digital y Social.</h2>
+    <p>La dirección de marketing comprende un conjunto de actividades y estrategias aplicadas en una organización, involucrando al personal, los productos y a los clientes. El objetivo primordial es obtener resultados positivos al satisfacer las necesidades y deseos del mercado objetivo. Además, se busca construir relaciones sólidas con los clientes, promoviendo así la fidelidad y la satisfacción a largo plazo. Para alcanzar nuestros objetivos, es fundamental realizar un análisis exhaustivo de toda la organización. Identificar los puntos que necesitan corrección o mejorar aquellos que están funcionando bien nos permitirá obtener resultados positivos y cumplir con los objetivos de la empresa. </p>
+</div>
+  <div class="contenedo5">
+    <h2>¿Cuáles son las tendencias en México?.</h2>
+    <p> La tendencia del consumidor en México ha cambiado desde la pandemia, al igual que en otros lugares del mundo, están en constante evolución debido a una serie de factores, como cambios demográficos, avances tecnológicos, influencias culturales y económicas.</p>
+    <p>Tecnología y Transformación Digital.</p>
+    <p>Energías Renovables.</p>
+    <p>Sostenibilidad.</p>
+    <p>E-commerce.&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+</div>
+	
+	<!-- Estilo para la galería -->
+<header>
+  <h1 style="color: #FFFFFF;" ><center>Algunos trabajos.</center></h1>
+</header>
+ 
+	
+	
+<div class="gallery">
+  	<img src="Graficos/trabajos 3d/casa_r.jpg" onclick="openModal('Graficos/trabajos 3d/casa_r.jpg')" alt="Image 1">
+  	<img src="Graficos/trabajos 3d/1.jpg" onclick="openModal('Graficos/trabajos 3d/1.jpg')" alt="Image 2">
+  	<img src="Graficos/trabajos 3d/12.gif" onclick="openModal('Graficos/trabajos 3d/12.gif')" alt="Image 3">
+	<img src="Graficos/trabajos 3d/11.gif" onclick="openModal('Graficos/trabajos 3d/11.gif')" alt="Image 4">
+	<img src="Graficos/trabajos 3d/4.jpg" onclick="openModal('Graficos/trabajos 3d/4.jpg')" alt="Image 5">
+	<img src="Graficos/trabajos 3d/9.jpeg" onclick="openModal('Graficos/trabajos 3d/9.jpeg')" alt="Image 5">
+	<img src="Graficos/trabajos 3d/2.jpg" onclick="openModal('Graficos/trabajos 3d/2.jpg')" alt="Image 5">
+</div>
+	
+<div id="myModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
+	
+<footer class="pie"> <p>Jose Angel Careaga Chantes <br>
+ Cédula Profesional:13720766</p></footer>
+<script src="js/script.js"></script> 
+<script src="js/script3d.js"></script> 
+<!-- Loads <model-viewer> for browsers: --> 
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
 </body>
 </html>
