@@ -55,7 +55,7 @@ li a:hover {
     padding-top: 14px;
 }
 .menu {
-    background-image: url(../Graficos/img/dg.jpg);
+    background-image: url(../Graficos/img/isla.jpg);
     background-position: center 0%;
     background-repeat: no-repeat;
     background-size: auto auto;
@@ -141,24 +141,16 @@ li a:hover {
 }
 .contenedo2 {
     background-color: #212121;
-    margin: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
     border-radius: 20px;
     text-align: justify;
     color: rgba(255, 255, 255, 1.00);
     font-size: 20px;
-    width: 850px; /* Asegúrate de usar unidades adecuadas, como px o % */
-    height: 600px;
+    width: 150vh;
     overflow: hidden;
-    
-    display: flex; /* Necesario para activar flexbox */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    flex-direction: column; /* Alinea los elementos verticalmente */
-}
-
-.contenedo2 img {
-    max-width: 100%; /* Asegura que la imagen no exceda el tamaño del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
 }
 .contenedo3 {
     background-color: rgba(33, 33, 33, 1.00);
@@ -190,32 +182,21 @@ li a:hover {
     margin-bottom: 20px;
     margin-left: 20px;
     color: #FFFFFF;
-    width: auto;
-    height: auto;
 }
 .contenedo6 {
     background-color: #212121;
-    margin: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
     border-radius: 20px;
     text-align: justify;
     color: rgba(255, 255, 255, 1.00);
     font-size: 20px;
-    width: 850px;
+    width: 850vh;
     overflow: hidden;
-    display: flex; /* Necesario para activar flexbox */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    flex-direction: column; /* Alinea los elementos verticalmente */
-    height: auto;
+    height: 600px;
 }
-
-.contenedo6 img {
-    height: auto;
-    width: auto;
-    max-width: 54%;
-    padding-bottom: 63px;
-}
-
 .contenedo2 h2 {
     text-align: left;
     padding-top: px;
@@ -266,11 +247,11 @@ li a:hover {
 }
 .contenedo6 h2 {
     text-align: left;
+    padding-top: px;
     padding-left: 40px;
     font-size: 30px;
     padding-bottom: 0px;
     padding-right: 40px;
-    padding-top: 33px;
 }
 .contenedo6 p {
     padding-right: 40px;
@@ -410,7 +391,9 @@ li a:hover {
 .aum .con-am {
     display: flex;
 }
-
+.con-am {
+    display: flex;
+}
 .con-gen .con-ico {}
 @keyframes scrollCarousel {
     0% {
@@ -644,18 +627,9 @@ model-viewer > #ar-prompt > img {
     margin-right: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
-    width: 34%;
+    width: 13%;
     height: 10%;
 }
-.con-am .contenedo5 p {
-    padding-top: 37px;
-    padding-right: 37px;
-    padding-bottom: 37px;
-    padding-left: 37px;
-    line-height: 23px;
-    text-align: justify;
-}
-
 .mi_paguina .contenedo2 {
     width: 90%;
 }
@@ -714,16 +688,6 @@ model-viewer > #ar-prompt > img {
     text-align: center; /* Centramos horizontalmente el texto */
     width: 240px; /* Utilizamos el 100% del ancho del botón */
 }
-.contenedo2 img {
-    width: 186px;
-    padding-top: 0px;
-}
-.con-am .contenedo6 {
-    width: auto;
-}
-
-
-
 
 
 
@@ -848,18 +812,19 @@ model-viewer > #ar-prompt > img {
     }
 	
 	.con-am {
-    flex-direction: column; /* Establecemos la dirección de los elementos secundarios en columna */
-    justify-content: center; /* Centramos verticalmente los elementos secundarios */
-    align-items: center; /* Ocupa toda la altura de la ventana */
-    padding: 20px;
-    border-radius: 20px;
-    height: auto;
-    display: block;
+        display: flex; /* Utilizamos flexbox para el diseño */
+        flex-direction: column; /* Establecemos la dirección de los elementos secundarios en columna */
+        justify-content: center; /* Centramos verticalmente los elementos secundarios */
+        align-items: center; /* Ocupa toda la altura de la ventana */
+        padding: 20px; /* Añade un relleno alrededor del contenido */
+        box-sizing: border-box;
+        border-radius: 20px;
+        height: auto;
     }
   
 	.con-am .contenedo5 {
-    height: auto;
-    width: auto;
+    height: 550px;
+    width: 250px;
 }
 	  .con-am .contenedo6 {
     height: 400px;
@@ -885,26 +850,6 @@ model-viewer > #ar-prompt > img {
     .cedula {
         width: 50vh;
     }
-.contenedo2 img {
-    margin-bottom: 45px;
-}
-
-.mi_paguina .contenedo2 {
-    height: auto;
-
-}
-.con-am .contenedo5 p {
-    padding-top: 42px;
-    padding-right: 42px;
-    padding-bottom: 42px;
-    padding-left: 42px;
-}
-.con-am {
-    display: flex;
-}
-
-
-
 }
 
 @media (max-width: 420px){
