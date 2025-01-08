@@ -689,6 +689,24 @@ model-viewer > #ar-prompt > img {
     text-align: center; /* Centramos horizontalmente el texto */
     width: 240px; /* Utilizamos el 100% del ancho del botón */
 }
+.menu model-viewer {
+    width: auto;
+    position: relative;
+    top: -16px;
+    height: 85vh;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.con-am .contenedo6 video {
+    width: 334px;
+
+}
+
+.menu .menu-items {
+
+}
+
+
 
 
 
