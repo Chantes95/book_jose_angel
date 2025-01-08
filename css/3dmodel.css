@@ -693,7 +693,7 @@ model-viewer > #ar-prompt > img {
     width: auto;
     position: relative;
     top: -16px;
-    height: 60vh;
+    height: 450px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
